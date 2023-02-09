@@ -1,4 +1,6 @@
 # Encryption Algorithm
+
+
 # step 3 converting ASCII to binary
 def decimal(num):
     if num >= 1:
@@ -7,5 +9,7 @@ def decimal(num):
 
     
 if __name__ == '__main__':
-    num1 = 45
-    decimal(num1)
+    #step1 to convert into character into ascii code
+c=input("enter the character that u need to convert into it's ascii value: ")
+num1=ord(c)+100
+ decimal(num1)
